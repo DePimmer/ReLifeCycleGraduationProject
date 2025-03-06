@@ -9,15 +9,15 @@ Welcome to the ReLifeCycle repository!
 
 
 **Report**
-- Link to thesis publication
+- Link to thesis will be placed here after publication
 
 
 **Demo videos**
-- Links to demo videos
+- Links to demo videos will be placed here soon
 
 
 **Example Grasshopper files**
-You can find multiple example files that demonstrate the workings of ReLifeCycle, how to connect a user interface and how to integrate it with the Galapagos and Wallacei third-party optimisation plugins.
+You can find multiple example files under the "Example Files" folder of this repository. The example files demonstrate the workings of ReLifeCycle, how to connect a user interface and how to integrate it with the Galapagos and Wallacei third-party optimisation plugins.
 
 
 **Requirements for setting up ReLifeCycle Grasshopper plugin**
@@ -27,11 +27,12 @@ You can find multiple example files that demonstrate the workings of ReLifeCycle
 
      
 **1. Setting up MySQL database**
-1. Create a new MySQL server if you don't already have one (MySQL Connections > +)
-2. Open your server and open the "relifecycle_db_schema.sql" file under the "Database" folder
-3. Run the SQL script by clicking the lightning bolt and the relifecycle_db should appear in the Navigator
-4. ⚠ IMPORTANT: Don't change anything of the database schema structure. Keep all table, view and column names as they are.
-5. Fill the database with your own material data. The schema serves as a template and consists of one example material. Read the table descriptions below for clarification:
+1. Open MySQL workbench
+2. Create a new MySQL server if you don't already have one (MySQL Connections > +)
+3. Open your server and open the "relifecycle_db_schema.sql" file under the "Database" folder of this repository
+4. Run the SQL script by clicking the lightning bolt and the relifecycle_db should appear in the Navigator
+5. ⚠ IMPORTANT: Don't change anything of the database schema structure. Keep all table, view and column names as they are.
+6. Fill the database with your own material data. The schema serves as a template and consists of one example material. Read the table descriptions below for clarification:
 
 - nmd_db: Table for environmental data. Within this table you can map materials from the "nibe_db" and "archicalc_db" tables by inserting their corresponding "nibe_id" and "archicalc_id".
 - nibe_db: Table for circularity data.
@@ -62,12 +63,14 @@ Make sure you download the following frameworks and packages:
 
 
 **4. Setting up ReLifeCycle interface**
-Make sure you download the following Grasshopper plugins:
-- Human UI:
-- Metahopper: 
+1. Make sure you download the following Grasshopper plugins:
+- Human UI: https://www.food4rhino.com/en/app/human-ui
+- Metahopper: https://www.food4rhino.com/en/app/metahopper
+2. Follow the steps in the "relifecycle_example_script_interface.gh" example file
 
 **4. Setting up ReLifeCycle Wallacei Multi-Objective Optimisation integration**
-Make sure you download the following Grasshopper plugins:
-- Wallacei
-- Human UI:
-- Metahopper: 
+1. Make sure you download the following Grasshopper plugins:
+- Wallacei: https://www.food4rhino.com/en/app/wallacei
+- Human UI: https://www.food4rhino.com/en/app/human-ui
+- Metahopper: https://www.food4rhino.com/en/app/metahopper
+2. Follow the steps in the "relifecycle_example_script_wallacei_integration.gh" example file
