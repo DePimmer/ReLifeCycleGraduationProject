@@ -27,7 +27,7 @@ Welcome to the ReLifeCycle repository!
 
 ## Instructions for setting up ReLifeCycle
 
-**Requirements for setting up ReLifeCycle Grasshopper plugin**
+**Set up requirements**
 - Visual Studio (recommended): https://visualstudio.microsoft.com/downloads/
 - MySQL Workbench: https://dev.mysql.com/downloads/workbench/
 - Grasshopper for Rhino: https://www.rhino3d.com/download/
