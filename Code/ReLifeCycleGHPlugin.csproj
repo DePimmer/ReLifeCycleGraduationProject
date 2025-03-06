@@ -1,0 +1,89 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net7.0-windows;net48</TargetFrameworks>
+		<EnableDynamicLoading>true</EnableDynamicLoading>
+		<TargetExt>.gha</TargetExt>
+		<NoWarn>NU1701;NETSDK1086</NoWarn>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>1.0</Version>
+		<Title>ReLifeCycle</Title>
+		<Company>Pim van Rijsbergen</Company>
+		<Description>Responsible Material Use Assessment Plugin</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\CircularityAssessmentIcon.png" />
+	  <None Remove="Resources\CreateBuildingElementIcon.png" />
+	  <None Remove="Resources\CreateBuildingIcon.png" />
+	  <None Remove="Resources\CreateFoundationIcon.png" />
+	  <None Remove="Resources\CreateMaterialSetIcon.png" />
+	  <None Remove="Resources\CreateStructuralSystemIcon.png" />
+	  <None Remove="Resources\DocumentationIcon.png" />
+	  <None Remove="Resources\EnvironmentalImpactAssessmentIcon.png" />
+	  <None Remove="Resources\FinancialImpactAssessmentIcon.png" />
+	  <None Remove="Resources\NLSfBComponentIcon.png" />
+	  <None Remove="Resources\NLSfBIcon.png" />
+	  <None Remove="Resources\ReLifeCycleLogoIcon.png" />
+	  <None Remove="Resources\ResponsibleMaterialUseAssessmentIcon.png" />
+	  <None Remove="Resources\SelectMaterialIcon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\CircularityAssessmentIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\CreateBuildingElementIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\CreateBuildingIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\CreateFoundationIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\CreateMaterialSetIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\CreateStructuralSystemIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\DocumentationIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\EnvironmentalImpactAssessmentIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\FinancialImpactAssessmentIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\NLSfBIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\ReLifeCycleLogoIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\ResponsibleMaterialUseAssessmentIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\SelectMaterialIcon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Grasshopper" Version="8.0.23304.9001" ExcludeAssets="runtime" />
+		<PackageReference Include="MySql.Data" Version="9.1.0" />
+	</ItemGroup>
+
+	<PropertyGroup Condition="$(TargetFramework.Contains('-windows')) or $(TargetFramework.StartsWith('net4'))">
+		<UseWindowsForms>true</UseWindowsForms>
+		<UseWpf>true</UseWpf>
+	</PropertyGroup>
+
+	<ItemGroup Condition="!($(TargetFramework.Contains('-windows')) or $(TargetFramework.StartsWith('net4')))">
+		<PackageReference Include="System.Drawing.Common" Version="7.0.0" ExcludeAssets="runtime" />
+	</ItemGroup>
+</Project>
