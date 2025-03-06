@@ -5,7 +5,8 @@
 Welcome to the ReLifeCycle repository!
 
 
-**General Info**
+## General info
+
 - ReLifeCycle is developed as a Grasshopper plugin developed for responsible material use assessment (environmental impact, circularity and financial impact) as part of my Master Graduation Project at Eindhoven University of Technology.
 - This repository contains all relevant code, schemas, and example files for the project.
 - To install and set up the ReLifeCycle plugin, follow the instructions below.
@@ -21,8 +22,10 @@ Welcome to the ReLifeCycle repository!
 
 
 **Example Grasshopper files**
-You can find multiple example files under the "Example Files" folder of this repository. The example files demonstrate the workings of ReLifeCycle, how to connect a user interface and how to integrate it with the Galapagos and Wallacei third-party optimisation plugins.
+- You can find multiple example files under the "Example Files" folder of this repository. The example files demonstrate the workings of ReLifeCycle, how to connect a user interface and how to integrate it with the Galapagos and Wallacei third-party optimisation plugins.
 
+
+## Instructions for setting up ReLifeCycle
 
 **Requirements for setting up ReLifeCycle Grasshopper plugin**
 - Visual Studio (recommended): https://visualstudio.microsoft.com/downloads/
