@@ -16,6 +16,10 @@ Welcome to the ReLifeCycle repository!
 - Links to demo videos
 
 
+**Example Grasshopper files**
+You can find multiple example files that demonstrate the workings of ReLifeCycle, how to connect a user interface and how to integrate it with the Galapagos and Wallacei third-party optimisation plugins.
+
+
 **Requirements for setting up ReLifeCycle Grasshopper plugin**
 - Visual Studio (preferred over Visual Studio Code): https://visualstudio.microsoft.com/downloads/
 - MySQL Workbench: https://dev.mysql.com/downloads/workbench/
@@ -38,9 +42,9 @@ Welcome to the ReLifeCycle repository!
 
 **2. Setting up Visual Studio**
 Make sure you download the following frameworks and packages:
-1. .NET framework (latest release for Rhino 8, .NET 4.8 for earlier versions of Rhino) https://dotnet.microsoft.com/en-us/download/dotnet-framework
-3.  Grasshopper SDK package (Project > Manage NuGet Packages...)
-4.  MySql.Data package (Project > Manage NuGet Packages...)
+- .NET framework (latest release for Rhino 8, .NET 4.8 for earlier versions of Rhino) https://dotnet.microsoft.com/en-us/download/dotnet-framework
+- Grasshopper SDK package (Project > Manage NuGet Packages...)
+- MySql.Data package (Project > Manage NuGet Packages...)
 
    
 **3. Setting up ReLifeCycle Grasshopper plugin**
@@ -58,7 +62,12 @@ Make sure you download the following frameworks and packages:
 
 
 **4. Setting up ReLifeCycle interface**
-Links to plugins
-
+Make sure you download the following Grasshopper plugins:
+- Human UI:
+- Metahopper: 
 
 **4. Setting up ReLifeCycle Wallacei Multi-Objective Optimisation integration**
+Make sure you download the following Grasshopper plugins:
+- Wallacei
+- Human UI:
+- Metahopper: 
