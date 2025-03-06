@@ -1,6 +1,5 @@
-# README
+# ReLifeCycle - Grasshopper Plugin for Responsible Material Use Assessment#
 
-#ReLifeCycle - Grasshopper Plugin for Responsible Material Use Assessment#
 
 Welcome to the ReLifeCycle repository!
 
