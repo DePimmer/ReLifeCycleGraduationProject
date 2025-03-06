@@ -5,29 +5,30 @@
 Welcome to the ReLifeCycle repository!
 
 
-## General info
+## Overview
+ReLifeCycle is developed as a Grasshopper plugin developed for responsible material use assessment (environmental impact, circularity and financial impact) as part of my Master Graduation Project at Eindhoven University of Technology. This repository contains all relevant code, schemas, and example files for the project.
 
-- ReLifeCycle is developed as a Grasshopper plugin developed for responsible material use assessment (environmental impact, circularity and financial impact) as part of my Master Graduation Project at Eindhoven University of Technology.
-- This repository contains all relevant code, schemas, and example files for the project.
-- To install and set up the ReLifeCycle plugin, follow the instructions below.
-- ⚠ IMPORTANT: The original material data cannot be published. To use the plugin, you must populate the ReLifeCycle database with your own material data.
+Below you will find instructions for installing and setting up the RelifeCycle plugin.
+
+⚠ IMPORTANT: The original material data cannot be published. To use the plugin, you must populate the ReLifeCycle database with your own material data.
+
+## Contents
+
+**In the repository**
+- Code: Folder containing all source code for the plugin.
+- Database: Folder containing a MySQL database schema for a material database.
+- Example files: Folder containing Grasshopper example files demonstrating the workings of ReLifeCycle, how to connect a user interface and how to integrate it with the Galapagos and Wallacei third-party optimisation plugins.
+
+**Additional**
+- Report: Link to thesis will be placed here after publication
+- Demo videos: Links to demo videos will be placed here soon
 
 
-**Report**
-- Link to thesis will be placed here after publication
+## Set up Instructions
 
+**0. Requirements**
 
-**Demo videos**
-- Links to demo videos will be placed here soon
-
-
-**Example Grasshopper files**
-- You can find multiple example files under the "Example Files" folder of this repository. The example files demonstrate the workings of ReLifeCycle, how to connect a user interface and how to integrate it with the Galapagos and Wallacei third-party optimisation plugins.
-
-
-## Instructions for setting up ReLifeCycle
-
-**Set up requirements**
+Before setting up the ReLifeCycle Grasshopper plugin, ensure you have the following software installed:
 - Visual Studio (recommended): https://visualstudio.microsoft.com/downloads/
 - MySQL Workbench: https://dev.mysql.com/downloads/workbench/
 - Grasshopper for Rhino: https://www.rhino3d.com/download/
@@ -49,10 +50,10 @@ Welcome to the ReLifeCycle repository!
 
 
 **2. Setting up Visual Studio**
-Make sure you download the following frameworks and packages:
-- .NET framework (latest release for Rhino 8, .NET 4.8 for earlier versions of Rhino): https://dotnet.microsoft.com/en-us/download/dotnet-framework
-- Grasshopper SDK package (Project > Manage NuGet Packages...)
-- MySql.Data package (Project > Manage NuGet Packages...)
+1. Make sure you download the following frameworks and packages:
+     - .NET framework (latest release for Rhino 8, .NET 4.8 for earlier versions of Rhino): https://dotnet.microsoft.com/en-us/download/dotnet-framework
+     - Grasshopper SDK package (Project > Manage NuGet Packages...)
+     - MySql.Data package (Project > Manage NuGet Packages...)
 
    
 **3. Setting up ReLifeCycle Grasshopper plugin**
@@ -71,14 +72,14 @@ Make sure you download the following frameworks and packages:
 
 **4. Setting up ReLifeCycle interface**
 1. Make sure you download the following Grasshopper plugins:
-- Human UI: https://www.food4rhino.com/en/app/human-ui
-- Metahopper: https://www.food4rhino.com/en/app/metahopper
+     - Human UI: https://www.food4rhino.com/en/app/human-ui
+     - Metahopper: https://www.food4rhino.com/en/app/metahopper
 2. Follow the steps in the "relifecycle_example_script_interface.gh" example file
 
 
 **4. Setting up ReLifeCycle Wallacei Multi-Objective Optimisation integration**
 1. Make sure you download the following Grasshopper plugins:
-- Wallacei: https://www.food4rhino.com/en/app/wallacei
-- Human UI: https://www.food4rhino.com/en/app/human-ui
-- Metahopper: https://www.food4rhino.com/en/app/metahopper
+     - Wallacei: https://www.food4rhino.com/en/app/wallacei
+     - Human UI: https://www.food4rhino.com/en/app/human-ui
+     - Metahopper: https://www.food4rhino.com/en/app/metahopper
 2. Follow the steps in the "relifecycle_example_script_wallacei_integration.gh" example file
