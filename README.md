@@ -70,14 +70,14 @@ Before setting up the ReLifeCycle Grasshopper plugin, ensure you have the follow
 10. Open Rhino and Grasshopper and the ReLifeCycle plugin should be there!
 
 
-**4. Setting up ReLifeCycle interface**
+**4. OPTIONAL: Setting up ReLifeCycle interface**
 1. Ensure the following Grasshopper plugins are downloaded:
      - Human UI: https://www.food4rhino.com/en/app/human-ui
      - Metahopper: https://www.food4rhino.com/en/app/metahopper
 2. Follow the steps in the "relifecycle_example_script_interface.gh" example file
 
 
-**4. Setting up ReLifeCycle Wallacei Multi-Objective Optimisation integration**
+**5. OPTIONAL: Setting up ReLifeCycle Wallacei Multi-Objective Optimisation integration**
 1. Ensure the following Grasshopper plugins are downloaded:
      - Wallacei: https://www.food4rhino.com/en/app/wallacei
      - Human UI: https://www.food4rhino.com/en/app/human-ui
