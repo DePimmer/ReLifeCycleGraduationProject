@@ -6,7 +6,7 @@ Welcome to the ReLifeCycle repository!
 
 
 ## Overview
-ReLifeCycle is developed as a Grasshopper plugin developed for responsible material use assessment (environmental impact, circularity and financial impact) as part of my Master Graduation Project at Eindhoven University of Technology. This repository contains all relevant code, schemas, and example files for the project.
+ReLifeCycle is developed as a Grasshopper plugin for responsible material use assessment (environmental impact, circularity and financial impact) as part of my Master Graduation Project at Eindhoven University of Technology. This repository contains all relevant code, schemas, and example files for the project. If there are any questions, feel free to contact me at pvanrijsbergen@gmail.com.
 
 Below you will find instructions for setting up the RelifeCycle plugin.
 
@@ -16,8 +16,8 @@ Below you will find instructions for setting up the RelifeCycle plugin.
 
 **In the repository**
 - **Code:** Folder containing all source code for the plugin.
-- **Database:** Folder containing a MySQL database schema for a material database.
-- **Example files:** Folder containing Grasshopper example files demonstrating the workings of ReLifeCycle, how to connect a user interface and how to integrate it with the Galapagos and Wallacei third-party optimisation plugins.
+- **Database:** Folder containing a MySQL database schema for the material database.
+- **Example files:** Folder containing Grasshopper example files demonstrating the workings of ReLifeCycle, how to connect the user interface and how to integrate ReLifeCycle with the Galapagos and Wallacei third-party optimisation plugins.
 
 **Additional resources**
 - **Report:** Link to thesis will be placed here after publication.
@@ -29,9 +29,9 @@ Below you will find instructions for setting up the RelifeCycle plugin.
 **0. Requirements**
 
 Before setting up the ReLifeCycle Grasshopper plugin, ensure you have the following software installed:
-- Visual Studio (recommended): https://visualstudio.microsoft.com/downloads/
+- Visual Studio (highly recommended): https://visualstudio.microsoft.com/downloads/
 - MySQL Workbench: https://dev.mysql.com/downloads/workbench/
-- Grasshopper for Rhino: https://www.rhino3d.com/download/
+- Grasshopper for Rhino 8 (earlier versions may work, but have not been tested): https://www.rhino3d.com/download/
 
      
 **1. Setting up MySQL database**
