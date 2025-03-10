@@ -20,8 +20,10 @@ Below you will find instructions for setting up the RelifeCycle plugin.
 - **Example files:** Folder containing Grasshopper example files demonstrating the workings of ReLifeCycle, how to connect the user interface and how to integrate ReLifeCycle with the Galapagos and Wallacei third-party optimisation plugins.
 
 **Additional resources**
-- **Report:** Link to thesis will be placed here after publication.
-- **Demo videos:** Links to demo videos will be placed here soon.
+- **Thesis:** Link to thesis will be placed here after publication.
+- **Demo videos:**
+     - ReLifeCycle Demo 1: Workflow and Interface: https://www.youtube.com/watch?v=AK7u2ayUnnw&t=215s
+     - ReLifeCycle Demo 2: Integration with Wallacei Multi-Objective Optimisation Plugin: https://www.youtube.com/watch?v=xFewBShcyd0&t=8s
 
 
 ## Set up Instructions
