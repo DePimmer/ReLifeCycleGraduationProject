@@ -22,8 +22,8 @@ Below you will find instructions for setting up the RelifeCycle plugin.
 **Additional resources**
 - **Thesis:** Link to thesis will be placed here after publication.
 - **Demo videos:**
-     - ReLifeCycle Demo 1: Workflow and Interface: https://www.youtube.com/watch?v=AK7u2ayUnnw&t=215s
-     - ReLifeCycle Demo 2: Integration with Wallacei Multi-Objective Optimisation Plugin: https://www.youtube.com/watch?v=xFewBShcyd0&t=8s
+     - ReLifeCycle Demo 1: Workflow and Interface: https://www.youtube.com/watch?v=AK7u2ayUnnw&t
+     - ReLifeCycle Demo 2: Integration with Wallacei Multi-Objective Optimisation Plugin: https://www.youtube.com/watch?v=xFewBShcyd0&t
 
 
 ## Set up Instructions
